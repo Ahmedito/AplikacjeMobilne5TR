@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+    <com.example.a5tracg.figura
+        style="@style/moj_styl"
+        android:contentDescription="@string/kolo"
+        />
+    <com.example.a5tracg.figura
+        style="@style/moj_styl"
+        android:contentDescription="@string/elipsa"
+        />
+    <com.example.a5tracg.figura
+        style="@style/moj_styl"
+        android:contentDescription="@string/prostokat"
+        />
+    <com.example.a5tracg.figura
+        style="@style/moj_styl"
+        android:contentDescription="@string/prostokatokragly"
+        />
+    <com.example.a5tracg.figura
+        style="@style/moj_styl"
+        android:contentDescription="@string/luk"
+        />
+    <com.example.a5tracg.figura
+        style="@style/moj_styl"
+        android:contentDescription="@string/linia"
+        />
+
+    </LinearLayout>
+<!--    <com.example.a5tracg.kwadraty-->
+<!--        android:id="@+id/view"-->
+<!--        android:name="com.example.a5tracg.kwadraty"-->
+<!--        android:layout_width="412dp"-->
+<!--        android:layout_height="726dp"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_centerVertical="true"-->
+<!--        android:clickable="true"-->
+<!--        android:minWidth="48dp"-->
+<!--        android:minHeight="48dp"-->
+<!--        android:onClick="kliknieto"-->
+<!--        android:visibility="visible"-->
+<!--        tools:layout_editor_absoluteX="-3dp"-->
+<!--        tools:layout_editor_absoluteY="0dp"-->
+<!--        tools:visibility="visible"-->
+<!--        tools:ignore="MissingConstraints" />-->
+
+</androidx.core.widget.NestedScrollView>
