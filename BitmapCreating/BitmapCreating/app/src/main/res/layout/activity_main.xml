@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/buttonCreate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kreuj" />
+
+        <Button
+            android:id="@+id/buttonClear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Czysc" />
+
+        <Button
+            android:id="@+id/buttonLines"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Linie" />
+
+        <Button
+            android:id="@+id/buttonEllipses"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Elipsy" />
+
+        <Button
+            android:id="@+id/buttonRectangles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Prostokaty" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
