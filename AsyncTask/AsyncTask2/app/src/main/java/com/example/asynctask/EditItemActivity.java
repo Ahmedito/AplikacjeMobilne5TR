@@ -46,7 +46,7 @@ public class EditItemActivity extends Activity {
                 String updatedPrice = priceEditText.getText().toString();
                 String updatedDescription = descriptionEditText.getText().toString();
 
-                
+
                 Intent resultIntent = new Intent();
                 resultIntent.putExtra("position", position);
                 resultIntent.putExtra("name", updatedName);
