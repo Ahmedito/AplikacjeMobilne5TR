@@ -19,29 +19,29 @@ public class EditItemActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_edit_item);
 
-        // Inicjalizacja widoków
+        
         nameEditText = findViewById(R.id.nameEditText);
         priceEditText = findViewById(R.id.priceEditText);
         descriptionEditText = findViewById(R.id.descriptionEditText);
         saveButton = findViewById(R.id.saveButton);
 
-        // Pobierz dane z Intentu
+        // Pobranie danych z intentu
         Intent intent = getIntent();
         int position = intent.getIntExtra("position", -1);
         String name = intent.getStringExtra("name");
         String price = intent.getStringExtra("price");
         String description = intent.getStringExtra("description");
 
-        // Ustaw dane w polach tekstowych
+        // Ustawienie danych w polach tekstowcyh
         nameEditText.setText(name);
         priceEditText.setText(price);
         descriptionEditText.setText(description);
 
-        // Ustawienie listenera na przycisku Zapisz
+        // Listener na Zapisz
         saveButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Pobranie zmodyfikowanych danych z pól tekstowych
+                // Pobranie zmodyfikowanych pól
                 String updatedName = nameEditText.getText().toString();
                 String updatedPrice = priceEditText.getText().toString();
                 String updatedDescription = descriptionEditText.getText().toString();
